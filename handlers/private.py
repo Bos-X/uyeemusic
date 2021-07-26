@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
-from config import BOT_NAME as bn
+from config import BOT_NAME, BOT_USERNAME, ASSISTANT_NAME, OWNER, GROUP_SUPPORT, UPDATES_CHANNEL 
 from helpers.filters import other_filters2
 
 
@@ -9,24 +9,25 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
     await message.reply_text(
-        f"""**👋🏻 halo, saya adalah {bn} ✨
+        f"""**👋🏻 Halo {message.from_user.first_name}, saya adalah {BOT_NAME} bot yang dapat memutar musik di voice chat group kamu.
 
-saya dapat memutar musik di voice chat group anda dengan mudah.
-dikelola oleh [Levina](https://t.me/dlwrml).
+✨ Saya adalah bot musik yang dirancang agar dapat memutar musik di voice chat group anda dengan cara yang mudah dan praktis.
 
-ingin memutar musik di vcg?, tambahkan saya ke grup anda.**
+👩‍💻 Bot ini dikelola oleh {OWNER}.
+
+💁🏻‍♀️ Anda ingin memutar musik di vcg?, silahkan tambahkan saya dan {ASSISTANT_NAME} ke grup anda dan jadikan admin.**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "➕ ADD TO YOUR GROUP ➕", url="https://t.me/veezmusicbot?startgroup=true")
+                        "➕ TAMBAHKAN KE GRUP ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "🌻 GROUP SUPPORT 🌻", url="https://t.me/gcsupportbots"
+                        "🌻 GROUP 🌻", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🌸 UPDATES CHANNEL 🌸", url="https://t.me/levinachannel"
+                        "🌸 CHANNEL 🌸", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ],[ 
                     InlineKeyboardButton(
@@ -44,7 +45,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌸 CHANNEL 🌸", url="https://t.me/levinachannel")
+                        "🌸 CHANNEL 🌸", url=f"https://t.me/{UPDATES_CHANNEL}")
                 ]
             ]
         )
