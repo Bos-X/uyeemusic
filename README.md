@@ -27,6 +27,7 @@
 - `/end` - hentikan pemutaran musik
 
 ### Deploy To Heroku</h4>
+Tekan tombol warna ungu dibawah untuk deploy ke heroku.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/veezmusic)
 
@@ -39,3 +40,4 @@ Gunakan [Repl Link](https://replit.com/@SpEcHiDe/GenerateStringSession) untuk me
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 - [Original Repo](https://github.com/suprojects/CallsMusic)
 - [Veez Music Bot](https://t.me/veezmusicbot) Our Music Bot
+- [RojSerBest](github.com/rojserbest) CallsMusic Developer
