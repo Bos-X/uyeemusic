@@ -1,6 +1,6 @@
-<h2 align="centre">Telegram Group Music Player Bot 🎵</h2>
+<h2 align="centre">🎶 Veez Music Bot</h2>
 
-### A bot that can play music on telegram group's voice call
+### Bot musik yang dapat memutar musik di voice chat group anda.
 
 <p align="center">
   <img src="https://telegra.ph/file/210a6cf99422cdd2d2902.jpg">
@@ -15,26 +15,27 @@
 
 ### Commands 🛠
 #### For all in group
-- `/play` - reply to youtube url or song file to play song
-- `/play <song name>` - play song you requested
-- `/song <song name>` - download songs you want quickly
-- `/search <query>` - search videos on youtube with details
+- `/play` - balas ke link yt atau file audio untuk memutar lagu
+- `/play <nama lagu>` - memutar lagu yang anda minta
+- `/song <nama lagu>` - mengunduh lagu yang anda minta
+- `/search <query>` - cari video youtube dengan detail
 
 #### Admins only
-- `/pause` - pause song play
-- `/resume` - resume song play
-- `/skip` - play next song
-- `/end` - stop music play
+- `/pause` - jeda pemutaran musik
+- `/resume` - lanjutkan musik yang dijeda
+- `/skip` - memutar lagu berikutnya
+- `/end` - hentikan pemutaran musik
 
 ### Deploy To Heroku</h4>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/levina-lab/veezmusic)
 
-Use [Repl Link](https://replit.com/@SpEcHiDe/GenerateStringSession) to get pyrogram string session
+Gunakan [Repl Link](https://replit.com/@SpEcHiDe/GenerateStringSession) untuk mengambil string pyrogram.
 
 ### Credits
+- [Levina](github.com/levina-lab): Dev
 - [ImJanindu](https://github.com/ImJanindu): Dev
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 - [Original Repo](https://github.com/suprojects/CallsMusic)
-- [Infinity BOTs](https://t.me/Infinity_BOTs)
+- [Veez Music Bot](https://t.me/veezmusicbot) Our Music Bot
