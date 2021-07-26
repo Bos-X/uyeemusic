@@ -7,7 +7,7 @@ from helpers.filters import other_filters2
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
-    await message.reply_sticker("CAACAgQAAx0CTv65QgABBfJlYF6VCrGMm6OJ23AxHmD6qUSWESsAAhoQAAKm8XEeD5nrjz5IJFYeBA")
+    await message.reply_sticker("CAACAgUAAxkBAAELBV5g_zDtu5CEiT6hNd5ZcL7QCzGznAACDQIAAqWPKVTYFqnjbykUNiAE")
     await message.reply_text(
         f"""**👋🏻 Halo {message.from_user.first_name}, saya adalah {BOT_NAME}, bot yang dapat memutar musik di voice chat group kamu.
 
@@ -15,7 +15,7 @@ async def start(_, message: Message):
 
 👩‍💻 Bot ini dikelola oleh {OWNER}.
 
-💁🏻‍♀️ Anda ingin memutar musik di vcg?, silahkan tambahkan saya dan [assistant bot](t.me{ASSISTANT_NAME}) ke grup anda dan jadikan admin.**
+💁🏻‍♀️ Anda ingin memutar musik di vcg?, silahkan tambahkan saya dan [assistant bot](https://t.me/{ASSISTANT_NAME}) ke grup anda dan jadikan admin.**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
