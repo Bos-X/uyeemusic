@@ -11,7 +11,7 @@ BOT_USERNAME = getenv("BOT_USERNAME", "veezmusicbot")
 
 PROJECT_NAME = getenv("PROJECT_NAME", "Veez Music Project")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
-GROUP_SUPPORT = getenv("GROUP_SUPPORT", "gcsuppportbots")
+GROUP_SUPPORT = getenv("GROUP_SUPPORT", "gcsupportbots")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "veezasisstant")
 OWNER = getenv("OWNER", "@dlwrml")
 
