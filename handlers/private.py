@@ -15,7 +15,7 @@ async def start(_, message: Message):
 
 👩‍💻 Bot ini dikelola oleh {OWNER}.
 
-💁🏻‍♀️ Anda ingin memutar musik di vcg?, silahkan tambahkan saya dan {ASSISTANT_NAME} ke grup anda dan jadikan admin.**
+💁🏻‍♀️ Anda ingin memutar musik di vcg?, silahkan tambahkan saya dan [assistant bot](t.me{ASSISTANT_NAME}) ke grup anda dan jadikan admin.**
         """,
         reply_markup=InlineKeyboardMarkup(
             [
