@@ -92,7 +92,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **Processing...**")
+    lel = await message.reply("🔄 **memproses...**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -118,7 +118,7 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**Mizuki Music assistant joined this group for play music 🎵**")
+                        message.chat.id, "**veez music assistant joined this group for play music 🎵**")
 
                 except UserAlreadyParticipant:
                     pass
@@ -152,8 +152,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="Channel 🔊",
-                        url="https://t.me/Infinity_BOTs")
+                        text="🌸 CHANNEL 🌸",
+                        url="https://t.me/levinachannel")
                    
                 ]
             ]
@@ -190,11 +190,11 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="YouTube 🎬",
-                            url=f"{url}"),
+                            text="🔮 GROUP",
+                            url=f"https://t.me/{GROUP_SUPPORT}"),
                         InlineKeyboardButton(
-                            text="Download 📥",
-                            url=f"{durl}")
+                            text="✨ CHANNEL",
+                            url=f"https://t.me/{UPDATES_CHANNEL}")
 
                     ]
                 ]
@@ -208,8 +208,8 @@ async def play(_, message: Message):
                     [
                         [
                             InlineKeyboardButton(
-                                text="YouTube 🎬",
-                                url=f"https://youtube.com")
+                                text="✨ CHANNEL",
+                                url=f"https://t.me/{UPDATES_CHANNEL}")
 
                         ]
                     ]
@@ -222,11 +222,11 @@ async def play(_, message: Message):
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
-            return await lel.edit("🧐 **What's the song you want to play?**")
-        await lel.edit("🔎 **Finding the song...**")
+            return await lel.edit("❔ **lagu apa yang ingin anda putar?, mohon berikan judul nya juga.**")
+        await lel.edit("🔎 **menemukan lagu...**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🎵 **Processing sounds...**")
+        await lel.edit("🎵 **memutar...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -249,7 +249,7 @@ async def play(_, message: Message):
                 
         except Exception as e:
             await lel.edit(
-                "❌ Song not found.\n\nTry another song or maybe spell it properly."
+                "❌ lagu tidak ditemukan.\n\nberikan judul lagu yang benar."
             )
             print(str(e))
             return
@@ -258,11 +258,11 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="YouTube 🎬",
-                            url=f"{url}"),
+                            text="🔮 GROUP",
+                            url=f"https://t.me/{GROUP_SUPPORT}"),
                         InlineKeyboardButton(
-                            text="Download 📥",
-                            url=f"{durl}")
+                            text="✨ CHANNEL",
+                            url=f"https://t.me/{UPDATES_CHANNEL}")
 
                     ]
                 ]
@@ -279,7 +279,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo="final.png", 
-        caption="**🎵 Song:** {}\n**🕒 Duration:** {} min\n**👤 Added By:** {}\n\n**#⃣ Queued Position:** {}".format(
+        caption="**🏷 Title:** {}\n**⏳ Duration:** {}\n**💡 Request:** {}\n\n**#⃣ Antrian Ke:** {}".format(
         title, duration, message.from_user.mention(), position
         ),
         reply_markup=keyboard)
@@ -290,7 +290,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**🎵 Song:** {}\n**🕒 Duration:** {} min\n**👤 Added By:** {}\n\n**▶️ Now Playing at `{}`...**".format(
+        caption="**🏷 Title:** {}\n**⏳ Duration:** {}\n**💡 Request:** {}\n\n**▶️ memutar di `{}`**".format(
         title, duration, message.from_user.mention(), message.chat.title
         ), )
         os.remove("final.png")
