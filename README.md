@@ -3,7 +3,7 @@
 ### Bot musik yang dapat memutar musik di voice chat group anda.
 
 <p align="center">
-  <img src="https://telegra.ph/file/210a6cf99422cdd2d2902.jpg">
+  <img src="https://telegra.ph/file/8bf3d62837cb59c3f8e7f.png">
 </p>
 
 <h3>Requirements 📝</h3>
