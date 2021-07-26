@@ -34,10 +34,10 @@ Tekan tombol warna ungu dibawah untuk deploy ke heroku.
 Gunakan [Repl Link](https://replit.com/@SpEcHiDe/GenerateStringSession) untuk mengambil string pyrogram.
 
 ### Credits
-- [Levina](github.com/levina-lab): Dev
+- [Levina](https://github.com/levina-lab): Dev
 - [ImJanindu](https://github.com/ImJanindu): Dev
 - [InukaASiTH](https://github.com/InukaAsith): Dev
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 - [Original Repo](https://github.com/suprojects/CallsMusic)
 - [Veez Music Bot](https://t.me/veezmusicbot) Our Music Bot
-- [RojSerBest](github.com/rojserbest) CallsMusic Developer
+- [RojSerBest](https://github.com/rojserbest) CallsMusic Developer
