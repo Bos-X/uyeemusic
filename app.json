@@ -18,6 +18,21 @@
       "required": false,
       "value": ""
     },
+    "BOT_USERNAME": {
+      "description": "isi dengan username bot musik kamu tanpa @",
+      "required": true
+      "value": "veezmusicbot"
+    },
+    "ASSISTANT_NAME": {
+      "description": "isi dengan nam assistant bot musik kamu",
+      "required": true
+      "value": "veezasisstant"
+    },
+    "OWNER": {
+      "description": "isi dengan username kamu",
+      "required": false
+      "value": "@dlwrml"
+    },
     "API_ID": {
       "description": "App ID dari my.telegram.org/apps",
       "required": true
@@ -35,13 +50,20 @@
       "required": true,
       "value": "10"
     },
+    "PROJECT_NAME": {
+      "description": "isi dengan nama project musik kamu, contoh nya Veez Music Project",
+      "required": false
+      "value": "Veez Music Project"
+    },
     "UPDATES_CHANNEL": {
       "description": "isi dengan username channel kamu, jika tidak punya lewati saja",
       "required": false
+      "value": "levinachannel"
     },
     "GROUP_SUPPORT": {
       "description": "isi dengan username grup kamu, jika tidak punya skip saja",
       "required": false
+      "value": "gcsupportbots"
     }
   }
 }
