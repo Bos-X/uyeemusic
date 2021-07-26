@@ -24,7 +24,7 @@
       "value": "veezmusicbot"
     },
     "ASSISTANT_NAME": {
-      "description": "isi dengan nam assistant bot musik kamu",
+      "description": "isi dengan username assistant bot musik kamu tanpa @",
       "required": true,
       "value": "veezasisstant"
     },
