@@ -9,6 +9,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME", "Veez Music Bot")
 BOT_USERNAME = getenv("BOT_USERNAME", "veezmusicbot")
 
+PROJECT_NAME = getenv("PROJECT_NAME", "Veez Music Project")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "levinachannel")
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "gcsuppportbots")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "veezasisstant")
