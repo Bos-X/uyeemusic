@@ -1,39 +1,47 @@
 {
   "name": "Veez Music Bot",
-  "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
+  "description": "bot untuk memutar musik di obrolan suara telegram.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/levina-lab/veezmusic",
   "stack": "container",
   "env": {
     "SESSION_NAME": {
-      "description": "Pyrogram session string",
+      "description": "isi dengan string session pyrogram",
       "required": true
     },
     "BOT_TOKEN": {
-      "description": "A bot token from @BotFather",
+      "description": "token bot anda dari @BotFather",
       "required": true
     },
     "BOT_NAME": {
-      "description": "Your MusicPlayer Bot Name.",
+      "description": "nama bot musik anda.",
       "required": false,
       "value": ""
     },
     "API_ID": {
-      "description": "App ID from my.telegram.org/apps",
+      "description": "App ID dari my.telegram.org/apps",
       "required": true
     },
     "API_HASH": {
-      "description": "App hash from my.telegram.org/apps",
+      "description": "App hash dari my.telegram.org/apps",
       "required": true
     },
     "SUDO_USERS": {
-      "description": "List of user IDs counted as admin everywhere (separated by space).",
+      "description": "list id untuk daftar anggota sudo (pisahkan dengan spasi).",
       "required": true
     },
     "DURATION_LIMIT": {
-      "description": "Max audio duration limit for downloads (minutes).",
+      "description": "max durasi untuk video yang diunduh (dalam menit).",
       "required": true,
       "value": "10"
+    },
+    "UPDATES_CHANNEL": {
+      "description": "isi dengan username channel kamu, jika tidak punya lewati saja",
+      "required": false
+    },
+    "GROUP_SUPPORT": {
+      "description": "isi dengan username grup kamu, jika tidak punya skip saja",
+      "required": false
     }
   }
 }
