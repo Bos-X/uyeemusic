@@ -14,13 +14,13 @@
 - [PyTgCalls](https://github.com/pytgcalls/pytgcalls)
 
 ### Commands 🛠
-#### For all in group
+#### Perintah untuk all Member
 - `/play` - balas ke link yt atau file audio untuk memutar lagu
 - `/play <nama lagu>` - memutar lagu yang anda minta
 - `/song <nama lagu>` - mengunduh lagu yang anda minta
 - `/search <query>` - cari video youtube dengan detail
 
-#### Admins only
+#### Perintah hanya untuk Admin
 - `/pause` - jeda pemutaran musik
 - `/resume` - lanjutkan musik yang dijeda
 - `/skip` - memutar lagu berikutnya
