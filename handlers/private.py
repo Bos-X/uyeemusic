@@ -24,14 +24,14 @@ async def start(_, message: Message):
                         "➕ TAMBAHKAN KE GRUP ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "🌻 GROUP 🌻", url=f"https://t.me/{GROUP_SUPPORT}"
+                        "🎶 GROUP 🎶", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "🌸 CHANNEL 🌸", url=f"https://t.me/{UPDATES_CHANNEL}"
+                        " CHANNEL ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "🎁 DONATION", url="https://t.me/dlwrml"
+                        "🎁 DONATION", url="https://t.me/Itsmeaceng"
                     )]
             ]
         ),
