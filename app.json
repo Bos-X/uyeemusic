@@ -1,5 +1,5 @@
 {
-  "name": "Veez Music Bot",
+  "name": "Uyee Music Bot",
   "description": "bot untuk memutar musik di obrolan suara telegram.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/levina-lab/veezmusic",
@@ -21,17 +21,17 @@
     "BOT_USERNAME": {
       "description": "isi dengan username bot musik kamu tanpa @",
       "required": true,
-      "value": "veezmusicbot"
+      "value": "UyeeMusicBot"
     },
     "ASSISTANT_NAME": {
       "description": "isi dengan username assistant bot musik kamu tanpa @",
       "required": true,
-      "value": "veezasisstant"
+      "value": "UyeeAsisten"
     },
     "OWNER": {
       "description": "isi dengan username kamu",
       "required": false,
-      "value": "@dlwrml"
+      "value": "@Itsmeaceng"
     },
     "API_ID": {
       "description": "App ID dari my.telegram.org/apps",
@@ -53,17 +53,17 @@
     "PROJECT_NAME": {
       "description": "isi dengan nama project musik kamu, contoh nya Veez Music Project",
       "required": false,
-      "value": "Veez Music Project"
+      "value": "Uyee Music Project"
     },
     "UPDATES_CHANNEL": {
       "description": "isi dengan username channel kamu, jika tidak punya lewati saja",
       "required": false,
-      "value": "levinachannel"
+      "value": "elahgabut"
     },
     "GROUP_SUPPORT": {
       "description": "isi dengan username grup kamu, jika tidak punya skip saja",
       "required": false,
-      "value": "gcsupportbots"
+      "value": "cari_jodohv3"
     }
   }
 }
