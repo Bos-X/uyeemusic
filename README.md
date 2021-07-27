@@ -1,4 +1,4 @@
-<h2 align="centre">🎶 Veez Music Bot</h2>
+<h2 align="centre">🎶 Uyee Music Bot</h2>
 
 ### Bot musik yang dapat memutar musik di voice chat group anda.
 
